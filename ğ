@@ -3,8 +3,9 @@
 int main() 
 {
   
-  std::cout << "Dear Self,\n";
+  std::cout << "deneme ğ"\n";
   std::cout << "hahahahaha\n";
-  std::cout << "niye yapıyom lan\n";
+  std::cout << "ههه لماذا\n";
+  std::cout << "vollah çalmadım\n";
     
 }
