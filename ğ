@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() 
+{
+  
+  std::cout << "Dear Self,\n";
+  std::cout << "hahahahaha\n";
+  std::cout <<"niye yapıyom lan\n";
+    
+}
