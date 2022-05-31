@@ -1,0 +1,76 @@
+if (hunger == true && anger == true) {
+ 
+  std::cout << "Hangry\n";                                                                           
+ 
+}                                                                                                
+
+
+//
+
+#include <iostream>
+
+int main() {
+  
+  int day = 6;
+  
+  // Write the code below:
+  if(day==6 ||day==7){
+    
+    std::cout<<"Weekend\n";
+  }
+
+}
+
+
+
+
+
+
+
+
+//
+if (!dirty_laundry) {
+ 
+  std::cout << "Adulting!\n";
+ 
+}
+
+aynısı
+
+if (dirty_laundry == false) {
+ 
+  std::cout << "Adulting!\n";
+ 
+}
+
+
+
+//
+#include <iostream>
+ 
+int main() {
+ 
+  int y = 0;
+ 
+  std::cout << "Enter year: ";
+  std::cin >> y;
+ 
+  if (y < 1000 || y > 9999) {
+ 
+    std::cout << "Invalid entry.\n";
+ 
+  }
+  else if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0) {
+ 
+    std::cout << y;
+    std::cout << " falls on a leap year.\n";
+ 
+  }
+  else {
+ 
+    std::cout << y;
+    std::cout << " is not a leap year.\n";
+ 
+  }
+ 
+}
