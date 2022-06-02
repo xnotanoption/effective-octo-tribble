@@ -1,0 +1,58 @@
+#include <iostream>
+
+// Define oscar_wilde_quote() below:
+void oscar_wilde_quote() {
+  
+  std::cout << "The highest, as the lowest, form of criticism is a mode of autobiography.\n";
+  
+}
+
+int main() {
+  
+  // Call your function here:
+  oscar_wilde_quote();
+  
+}
+
+
+
+
+//örnek
+void animal_chat() {
+ 
+  std::string fav, pet;
+ 
+  std::cout << "What's your favorite animal?\n";
+  std::cin >> fav;
+ 
+  std::cout << "Do you have a " << fav << " as a pet? y/n\n";
+  std::cin >> pet;
+ 
+  if (pet == "y") {
+ 
+    std::cout << "How lucky you have a " << fav << " as a pet!\n";
+ 
+  } else {
+ 
+    std::cout << "That's too bad.\n";
+ 
+  }
+ 
+}
+
+
+/*Remember, the overall structure of a function looks like:*/
+//return_type function_name( any, parameters, you, have ) {
+ 
+   // Code block here
+ 
+   return output_if_there_is_any;
+ 
+   
+   
+/*For a function with no input and output, it would look something like:*/
+}void function_name() {
+ 
+   // Code block here
+ 
+}
