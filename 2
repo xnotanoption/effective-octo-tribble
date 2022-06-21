@@ -1,0 +1,41 @@
+int main()
+{
+int a[3]={20,30,40};
+int (*p)[3];
+p=&a;
+printf("%d",(*p)[0]);
+}
+
+int main()
+{
+int a[3]={20,30,40};
+printf ("%d", *(a+1));
+}
+
+
+
+
+//bu
+int main()
+{
+    int ary[2][2][3]= {
+    {{1,2,3},{4,5,6}},
+    {{7,8,9},{10,11,12}}
+    };
+    printf("%d %d", ary[0][0][0], ary[1][1][2]);
+    return 0;
+}
+
+//ve bu aynı 
+
+int main()
+{
+    int ary[2][2][3] = {
+        {{1,2,3},{4,5,6}},
+        {{7,8,9},{10,11,12}}
+    };
+    int *p;
+    p = &ary;
+    printf("%d %d",*p, *p+11);
+    return 0;
+} //*p points to the first element. *p + 11 is the 12th element which is 12 in the array. It is same as ary[1][1][2].
